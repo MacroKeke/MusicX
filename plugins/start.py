@@ -87,7 +87,7 @@ async def pm_start(_, message: Message):
                     [
                         InlineKeyboardButton(
                             gm(message.chat.id, "group_buttn"),
-                            url=f"https://t.me/{bot_username}?start=help",
+                            url=f"https://t.me/MajesteMusicProBot?start=help",
                         )
                     ]
                 ],
